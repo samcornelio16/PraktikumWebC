@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Pemograman Berbasis Web</title>
+	</head>
+	<body>
+		<h1><b>KALKULATOR JAVASCRIPT</b></h1>
+		<form name = "pbw">
+			<table cellspacing="10">
+				<tr><td>Bilangan Pertama:</td></tr>
+				<tr><td><input type = "text" name = "a" placeholder= "Masukkan Bilangan Pertama"/></td></tr>
+				<tr><td>Bilangan Kedua:</td></tr>
+				<tr><td><input type = "text" name = "b" placeholder= "Masukkan Bilangan Kedua"/></td></tr>
+				<tr>
+				<td colspan="2" align="center">
+				<input type = "button" value = "+" onClick = "tambah()"/> 
+				<input type = "button" value = "-" onClick = "kurang()"/> 
+				<input type = "button" value = ":" onClick = "bagi()"/>
+				<input type = "button" value = "X" onClick = "kali()"/> 
+			</table>
+			<table  cellspacing="10">
+				<td colspan="3" align="center"><input type = "reset" value="clear"></td>
+			</table>
+			<table cellspacing="10">
+			<th>
+				<br>Hasil:</br>
+				<br><input type = "text" name = "hasil" value=""/></br>
+			</th>
+			</table>
+		</form>
+	</body>
+	<script type="text/javascript" src="Kalkulator.js"></script>
+</html>
