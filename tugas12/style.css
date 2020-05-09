@@ -1,0 +1,93 @@
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #DCDCDC;}
+
+  .left-box{
+      background-color:whitesmoke;
+      margin-top: 10px;
+      margin-left: 10px;
+      width: 15%;
+      height: auto;
+      float: left;
+      text-align: center;
+      border-top-left-radius: 30px;
+      padding-top: 20px;
+  }
+  .left-box a{
+    display: block;
+    color: black;
+  }
+  
+  .right-box{
+    background-color:whitesmoke;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 80%;
+    height: auto;
+    float: left;  
+  }
+
+  .navbar{
+    width: 100%;
+    height: 50px;
+    padding-bottom: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #696969;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;}
+
+  .cover img{
+      width: 100%;
+      clear: right;
+      height: 400px;
+      background-size: cover;
+  }
+
+  .footer{
+    text-align: center;
+    color: #eaeaea;
+    clear: both;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    margin-top: 0px;
+    background-color:rgb(109, 109, 109) ;
+  }
+
+  .penjelasan{
+      padding: 20px 20px;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-left: 25px;
+    float: left;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 20px;
+  }
+
+
+ 
+ 
